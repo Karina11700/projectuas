@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/back2">
+
+        <ImageView
+            android:id="@+id/img_list"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nama"
+            android:text="Nama"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_harga"
+            android:text="Harga"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_beli"
+            android:text="Detail"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
